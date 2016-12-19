@@ -1,16 +1,13 @@
 //
-//  ViewController.h
+//  ShowMainModel.m
 //  VideoDemoToSun
 //
 //  Created by 涂婉丽 on 16/12/15.
 //  Copyright © 2016年 涂婉丽. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ShowMainModel.h"
 
-@interface ViewController : UIViewController
-
-- (IBAction)btnClick;
+@implementation ShowMainModel
 
 @end
-

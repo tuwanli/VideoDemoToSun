@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ShowMainViewVC.h
 //  VideoDemoToSun
 //
 //  Created by 涂婉丽 on 16/12/15.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-- (IBAction)btnClick;
+@interface ShowMainViewVC : UIViewController<UITableViewDataSource,UITableViewDelegate>
 
 @end
-

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ShowMainViewVC.h"
 @interface ViewController ()
 
 @end
@@ -24,4 +24,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btnClick {
+    ShowMainViewVC *showVC = [ShowMainViewVC new];
+    [self.navigationController pushViewController:showVC animated:YES];
+}
 @end
